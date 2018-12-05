@@ -3,13 +3,24 @@
   padding: 0;
 }
 
+p, a {
+  font-family: Arial;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0094d4;
+}
+
+
 .form-container {
   width: 250px;
   height: auto;
   padding: 20px 30px;
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 0 #000;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 #000;
   margin: auto;
 }
 
@@ -33,13 +44,25 @@
   text-align: right;
   float: right;
   display: inline-block;
-  color: #a8c8db;
+  color: #0094d4;
 }
 
+.logo {
+  position: relative;
+  top: 25px;
+  right: -20px;
+}
 
 .banner-header {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.user-input {
+  width: inherit;
+  border-radius: 3px;
+  height: 2em;
+  margin-bottom: 20px;
 }
 
 .button {
@@ -58,6 +81,7 @@
   font-size: 16px;
   padding: 10px 30px;
   width: inherit;
+  margin-bottom: 10px;
 }
 
 #facebook {
@@ -66,6 +90,7 @@
   background-color: #315285;
   padding: 5px 20px;
   width: 120px;
+
 }
 
 #google {
@@ -75,6 +100,20 @@
   background-color: #2e7dd5;
   padding: 5px 20px;
   width: 120px
+}
+
+#login-options {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+
+.signup-footer {
+  position:relative;
+  top: 30px;
 }
 
 .banner {
