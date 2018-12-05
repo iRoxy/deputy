@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  width: 250px;
+  height: auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #000;
+  margin: auto;
+}
+
+.p-center-text {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.inline-link {
+  padding: 5px;
+}
+
+.inline-link p {
+  display: inline-block;
+  text-align: left;
+}
+.inline-link a {
+  text-align: right;
+  float: right;
+  display: inline-block;
+  color: #a8c8db;
+}
+
+
+.banner-header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 4px 2px;
+  border-radius: 5px;
+}
+
+#submit-button {
+  display: block;
+  background-color: #0094d4;
+  font-size: 16px;
+  padding: 10px 30px;
+  width: inherit;
+}
+
+#facebook {
+  display: inline-block;
+  font-size: 12px;
+  background-color: #315285;
+  padding: 5px 20px;
+  width: 120px;
+}
+
+#google {
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  background-color: #2e7dd5;
+  padding: 5px 20px;
+  width: 120px
+}
+
+.banner {
+  width: 85%;
+  height: 5em;
+  background-color: #0094d4;
+  display: block;
+  margin: 0 auto;
+  padding-right: 30px;
+}
