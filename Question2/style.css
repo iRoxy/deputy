@@ -7,13 +7,34 @@ table {
 td, th {
   border-bottom: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
+  padding: 3px;
+}
+
+th {
+  background-color: #eeeff1;
+  font-family: Arial;
+  font-size: 14px;
+  color: #8f9191;
+}
+
+th:last-child {
+  text-align: right;
+}
+
+.m-team-name {
+  color: #3c8cbd;
+}
+
+p {
+  color: gray;
+  font-size: 14px;
 }
 
 .button {
   border: none;
   color: white;
   text-align: center;
+  float:right;
   text-decoration: none;
   cursor: pointer;
   margin: 4px 2px;

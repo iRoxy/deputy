@@ -37,10 +37,10 @@ function getLocationName(id) {
 
 function createCard(cardData) {
   var cardTemplate = [
-    '<tr><td>',
+    '<tr><td><div>',
     '<div class="m-team-name">',
     cardData.DisplayName || 'No name provided',
-    '<p>',
+    '</div><p>',
     getRoleName(cardData.Role) || 'No job provided',
     '</p></div></td>',
     '<td class="text-small" style="table-cell">',
