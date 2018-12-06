@@ -45,7 +45,8 @@ function createCard(cardData) {
     '</p></div></td>',
     '<td class="text-small" style="table-cell">',
     getLocationName(cardData.Location) || 'No location provided',
-    '</td></tr>',
+    '</td>',
+    '<td><input class="button" type="submit" value="View"></input></td></tr>',
   ];
 
   // a jQuery node
@@ -80,5 +81,5 @@ userData.forEach(function(item, i) {
 
 // Add them to the page... for instance the <body>
 $(function() {
-  $('tr td').append(cards);
+  $('tbody').append(cards);
 });
